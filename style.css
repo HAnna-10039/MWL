@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@1,500&family=Libre+Caslon+Text:wght@400;700&family=Yeseva+One&display=swap');
+
+
 .navigation {
     background: #90d1d8;
+    padding: 1.3em;
+    filter: drop-shadow(0 2mm 2mm #576169);
+}
+
+
+nav a {
+  text-decoration: none;
+  color: Black;
+  padding: 1.3em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: right;
+  margin-right: 20px;;
+}
+
+nav li {
+  font-size: 24px; 
+  Color: black;
+  list-style-type: none;
+  font-family: 'Krub', sans-serif;
+}
+
+.Hero-h1{
+font-family: 'Yeseva One', cursive;}
+
+h2{
+  font-family: 'Krub', sans-serif; }  
+
+.hero {
+  display: flex;
+  background-color: #E5BB69;
 }
