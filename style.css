@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@1,500&family=Libre+Caslon+Text:wght@400;700&family=Yeseva+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,300;0,500;1,500&family=Libre+Caslon+Text:wght@400;700&family=Yeseva+One&display=swap');
 
 .navigation {
     background: #90d1d8;
@@ -27,13 +26,23 @@ nav li {
   font-family: 'Krub', sans-serif;
 }
 
-.Hero-h1{
-font-family: 'Yeseva One', cursive;}
-
-h2{
-  font-family: 'Krub', sans-serif; }  
-
 .hero {
   display: flex;
   background-color: #E5BB69;
 }
+
+.heroh1{
+font-family: 'Yeseva One', cursive;
+padding-top: 100px;
+padding-left: 120px;
+padding-right: 100px;
+}
+
+.herop {
+  font-family: 'Krub', sans-serif;
+  text-align: left;
+}
+
+
+
+
