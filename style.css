@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,300;0,500;1,500&family=Libre+Caslon+Text:wght@400;700&family=Yeseva+One&display=swap');
 
+.container {
+  width: 1440px;
+}
 .navigation {
     background: #90d1d8;
-    padding: 1.3em;
+    padding: 1.2em;
     filter: drop-shadow(0 2mm 2mm #576169);
 }
 
@@ -15,34 +18,46 @@ nav a {
 
 nav ul {
   display: flex;
+  list-style-type: none;
+  margin-right: 20px;
   justify-content: right;
-  margin-right: 20px;;
+  font-family: 'Krub', sans-serif;
+  font-size: 24px; 
+  text-transform: uppercase;
+  Color: black;
+  
 }
 
 nav li {
-  font-size: 24px; 
-  Color: black;
-  list-style-type: none;
-  font-family: 'Krub', sans-serif;
+  
+ 
+  
 }
 
 .hero {
   display: flex;
   background-color: #E5BB69;
+
 }
 
 .heroh1{
 font-family: 'Yeseva One', cursive;
-padding-top: 100px;
-padding-left: 120px;
-padding-right: 100px;
+font-size: 37pt;
+margin-top: 200px;
+margin-left: 120px;
+margin-right: 80px;
 }
 
 .herop {
-  font-family: 'Krub', sans-serif;
-  text-align: left;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 12pt;
+  text-align: right;
+  margin-right: 160px;
+
 }
 
 
-
+body {
+  background-color:#191919;
+}
 
