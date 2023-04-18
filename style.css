@@ -30,14 +30,15 @@ nav ul {
 
 nav li {
   
- 
-  
 }
 
 .hero {
   display: flex;
   background-color: #E5BB69;
+}
 
+.hero-photo img {
+  display: block;
 }
 
 .heroh1{
@@ -51,9 +52,8 @@ margin-right: 80px;
 .herop {
   font-family: 'Libre Caslon Text', serif;
   font-size: 12pt;
-  text-align: right;
+  text-align:right;
   margin-right: 160px;
-
 }
 
 
@@ -61,3 +61,23 @@ body {
   background-color:#191919;
 }
 
+.section1h1 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 37pt;
+  color: #E5BB69;
+  margin-top: 150px;
+  margin-left: 120px;
+}
+
+.section1p {
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 12pt;
+  text-align:left;
+  color: white;
+  margin-left: 160px;
+
+}
+
+.section-flex { 
+  display:flex;
+}
