@@ -63,21 +63,54 @@ body {
 
 .section1h1 {
   font-family: 'Yeseva One', cursive;
-  font-size: 37pt;
+  font-size: 36pt;
   color: #E5BB69;
   margin-top: 150px;
   margin-left: 120px;
 }
 
-.section1p {
-  font-family: 'Libre Caslon Text', serif;
-  font-size: 12pt;
-  text-align:left;
-  color: white;
-  margin-left: 160px;
-
-}
-
 .section-flex { 
   display:flex;
 }
+
+.section1p1 {
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 15pt;
+  color: white;
+  content-align: left;
+  margin-left: 60px;
+  margin-right: 150px;
+}
+
+.section1-photo1 {
+  margin-left: 125px;
+}
+
+.section1p2 {
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 15pt;
+  color: white;
+  content-align: left;
+  margin-left: 130px;
+  margin-right: 60px;
+  width:800px;
+  padding-top: 20px;  
+  padding-bottom: 100px;
+} 
+
+.section2 {
+  background: url('img/Snowy-Background.jpg');
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container {
+  height: 400px;
+  width: 800px;
+  background: #E5BB69;
+}
+
+
