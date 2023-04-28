@@ -398,7 +398,6 @@ margin-right: 80px;
   width: 60%;
   height: 850px;
   align-items: center;
-  margin-top: 50px;
   margin-bottom: 150px;
   background-color: #E5BB69;
   display: table-cell;
@@ -410,7 +409,9 @@ margin-right: 80px;
   height: auto;
   object-fit: cover;
   float: left;
+  padding-top: 50px; 
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .card2 {
@@ -427,5 +428,6 @@ margin-right: 80px;
   font-size: 15pt;
   color: #191919;
   content-align: left;
-  padding
+  padding-top: 50px; 
+  padding-right: 10px;
 }
