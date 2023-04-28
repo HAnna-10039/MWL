@@ -61,12 +61,18 @@ nav li {
   display: block;
 }
 
+.quote {
+  margin-top: 120px;
+  margin-left: 420px;
+  margin-right: 0px;
+}
+
 .hero-h1{
-font-family: 'Yeseva One', cursive;
-font-size: 37pt;
-margin-top: 200px;
-margin-left: 120px;
-margin-right: 80px;
+  font-family: 'Yeseva One', cursive;
+  font-size: 37pt;
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 80px;
 }
 
 .hero-p {
@@ -158,8 +164,21 @@ margin-right: 80px;
 
 
 
+
+.section3-h1 { 
+  font-family: 'Krub', sans-serif; 
+  font-size: 55pt;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 140px;
+  color: #90D1D8;
+}
+
+
+
+
 .section4 {
-  margin-top: 170px;
+  margin-top: 70px;
 }
 
 .title1-flex { 
