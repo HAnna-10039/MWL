@@ -12,17 +12,27 @@ body {
   width: 1440px;
   margin: 0 auto;
 }
+
 .navigation {
     background: #90d1d8;
     padding: 1.2em;
     filter: drop-shadow(0 2mm 2mm #576169);
+    display: flex;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-right: 420px;
+
 }
 
 
 nav a {
   text-decoration: none;
   color: Black;
-  padding: 1.3em;
+  padding: 1.0em;
 }
 
 nav ul {
@@ -141,12 +151,11 @@ margin-right: 80px;
 
 
 .section4 {
-  margin-top: 200px;
+  margin-top: 170px;
 }
 
 .title1-flex { 
   display:flex;
-  margin-top: 120px;
 }
 
 .title1-container {
@@ -192,12 +201,11 @@ margin-right: 80px;
 
 
 .section5 {
-  margin-top: 200px;
+  margin-top: 170px;
 }
 
 .title2-flex { 
   display:flex;
-  margin-top: 120px;
 }
 
 .title2-container {
@@ -248,12 +256,11 @@ margin-right: 80px;
 
 
 .section6 {
-  margin-top: 175px;
+  margin-top: 140px;
 }
 
 .title3-flex { 
   display:flex;
-  margin-top: 120px;
 }
 
 .section6-photo1 { 
@@ -281,8 +288,8 @@ margin-right: 80px;
   font-size: 15pt;
   color: white;
   content-align: left;
-  padding-left: 50px;
-  padding-right: 80px;
+  padding-left: 100px;
+  padding-right: 60px;
   padding-top: 20px;
 }
 
@@ -290,12 +297,11 @@ margin-right: 80px;
 
 
 .section7 {
-  margin-top: 175px;
+  margin-top: 170px;
 }
 
 .title4-flex { 
   display:flex;
-  margin-top: 120px;
 }
 
 .section7-photo1 { 
@@ -314,16 +320,81 @@ margin-right: 80px;
 .section7-flex { 
   display:flex;
   margin-top: 20px;
-  margin-left: 75px;
   margin-right: 75px;
+  height: 600px;
+  width: 1370px;
+  background: #E5BB69;
+}
+
+.video-container2 {
+  margin-right: 20px
 }
 
 .section7-p {
   font-family: 'Libre Caslon Text', serif;
   font-size: 15pt;
-  color: white;
+  color: #191919;
   content-align: left;
-  padding-left: 50px;
+  padding-left: 100px;
   padding-right: 80px;
-  padding-top: 20px;
+  padding-top: 50px;
+  width: 270px;
 }
+
+.section7-photo2 {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  margin-left: 180px;
+}
+
+
+.quote-content {  
+  margin-top: 180px;
+  margin-bottom: 190px;
+}
+
+.quote-h1{
+  font-family: 'Yeseva One', cursive;
+  font-size: 37pt;
+  margin-left: 180px;
+  margin-right: 180px;
+  color:#FCFCFB;
+  text-align: center;
+  }
+  
+.quote-p {
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 25pt;
+  color:#FCFCFB;
+  text-align: center;
+}
+
+
+
+
+.section9 {
+  background: url('img/snowy-Background.jpg');
+  background-size: cover;
+  height: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-container {
+  height: 1200px;
+  width: 1100px;
+  background: #E5BB69;
+  margin-bottom: 150px;
+}
+
+.section9-h1 { 
+  font-family: 'Krub', sans-serif; 
+  font-weight: lighter;
+  font-size: 60pt;
+  text-align: center;
+  margin-top: 90px;
+}
+
+
+
