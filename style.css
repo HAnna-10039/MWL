@@ -378,6 +378,7 @@ margin-right: 80px;
   background-size: cover;
   justify-content: center;
   align-items: center;
+  filter: drop-shadow(0 2mm 2mm #576169);
 }
 
 .section9-h1 { 
@@ -430,4 +431,25 @@ margin-right: 80px;
   content-align: left;
   padding-top: 50px; 
   padding-right: 10px;
+}
+
+
+
+
+footer{
+  background-color: #90D1D8;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  text-align: Center; 
+  color:black;
+  width: 1440px;
+}
+
+h4{
+  color: #191919;
+  font-family: 'Libre Caslon Text', serif;
+  font-weight: 400;
+  font-size: 24px;
+  padding-left: 140px;
+  padding-right: 400px;
 }
