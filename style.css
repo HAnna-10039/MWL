@@ -375,17 +375,9 @@ margin-right: 80px;
 .section9 {
   background: url('img/snowy-Background.jpg');
   background-size: cover;
-  height: 1500px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.book-container {
-  height: 1200px;
-  width: 1100px;
-  background: #E5BB69;
-  margin-bottom: 150px;
 }
 
 .section9-h1 { 
@@ -396,5 +388,30 @@ margin-right: 80px;
   margin-top: 90px;
 }
 
+.card-section {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  width: 60%;
+  height: 900px;
+  align-items: center;
+  padding: 10px;
+  margin: 1px;
+  margin-top: 25px;
+  margin-bottom: 70px;
+  background-color: #E5BB69;
+}
+
+.card-img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  float: left;
+  padding-top: 50px; 
+  padding-left: 20px;
+}
 
 
