@@ -82,7 +82,6 @@ margin-right: 80px;
 
 .section1-h1 {
   font-family: 'Yeseva One', cursive;
-  font-weight: lighter;
   font-size: 36pt;
   color: #E5BB69;
   margin-top: 150px;
@@ -143,7 +142,8 @@ margin-right: 80px;
 
 .section2-h1 { 
   font-family: 'Krub', sans-serif; 
-  font-size: 50pt;
+  font-size: 55pt;
+  font-weight: 400;
   text-align: center;
   margin-top: 160px;
   margin-bottom: 60px;
@@ -349,12 +349,12 @@ margin-right: 80px;
 }
 
 
-.quote-content {  
+.section8-content {  
   margin-top: 180px;
   margin-bottom: 190px;
 }
 
-.quote-h1{
+.section8-h1{
   font-family: 'Yeseva One', cursive;
   font-size: 37pt;
   margin-left: 180px;
@@ -363,7 +363,7 @@ margin-right: 80px;
   text-align: center;
   }
   
-.quote-p {
+.section8-p {
   font-family: 'Libre Caslon Text', serif;
   font-size: 25pt;
   color:#FCFCFB;
@@ -382,7 +382,8 @@ margin-right: 80px;
 
 .section9-h1 { 
   font-family: 'Krub', sans-serif; 
-  font-size: 50pt;
+  font-size: 55pt;
+  font-weight: 400;
   text-align: center;
   padding-top: 110px;
 }
@@ -397,6 +398,7 @@ margin-right: 80px;
   width: 60%;
   height: 850px;
   align-items: center;
+  margin-top: 50px;
   margin-bottom: 150px;
   background-color: #E5BB69;
   display: table-cell;
@@ -408,7 +410,6 @@ margin-right: 80px;
   height: auto;
   object-fit: cover;
   float: left;
-  padding-top: 50px; 
   padding-left: 20px;
 }
 
@@ -419,5 +420,12 @@ margin-right: 80px;
   width: 200px;
   align-items: center;
   flex-direction: column;
- 
+}
+
+.section9-p {
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 15pt;
+  color: #191919;
+  content-align: left;
+  padding
 }
