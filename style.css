@@ -348,6 +348,13 @@ margin-right: 80px;
   margin-left: 180px;
 }
 
+.section7-video {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-right: 80px;
+}
+
 
 .section8-content {  
   margin-top: 180px;
@@ -439,7 +446,7 @@ margin-right: 80px;
 footer{
   background-color: #90D1D8;
   padding-top: 45px;
-  padding-bottom: 45px;
+  padding-bottom: 25px;
   text-align: Center; 
   color:black;
   width: 1440px;
@@ -452,4 +459,20 @@ h4{
   font-size: 24px;
   padding-left: 140px;
   padding-right: 400px;
+}
+
+.social-section {
+  display: flex;
+  justify-content: right;
+  margin-right: 150px;
+}
+
+.socialcards {
+  width: 80px;
+  margin: 1px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 100px;
 }
