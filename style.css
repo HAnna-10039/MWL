@@ -82,6 +82,7 @@ margin-right: 80px;
 
 .section1-h1 {
   font-family: 'Yeseva One', cursive;
+  font-weight: lighter;
   font-size: 36pt;
   color: #E5BB69;
   margin-top: 150px;
@@ -134,18 +135,18 @@ margin-right: 80px;
 }
 
 .video-container {
-  height: 600px;
+  height: 620px;
   width: 1100px;
   background: #E5BB69;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
 }
 
 .section2-h1 { 
   font-family: 'Krub', sans-serif; 
-  font-weight: lighter;
-  font-size: 60pt;
+  font-size: 50pt;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 160px;
+  margin-bottom: 60px;
 }
 
 
@@ -375,17 +376,15 @@ margin-right: 80px;
 .section9 {
   background: url('img/snowy-Background.jpg');
   background-size: cover;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .section9-h1 { 
   font-family: 'Krub', sans-serif; 
-  font-weight: lighter;
-  font-size: 60pt;
+  font-size: 50pt;
   text-align: center;
-  margin-top: 90px;
+  padding-top: 110px;
 }
 
 .card-section {
@@ -396,13 +395,12 @@ margin-right: 80px;
 .card {
   display: flex;
   width: 60%;
-  height: 900px;
+  height: 850px;
   align-items: center;
-  padding: 10px;
-  margin: 1px;
-  margin-top: 25px;
-  margin-bottom: 70px;
+  margin-bottom: 150px;
   background-color: #E5BB69;
+  display: table-cell;
+  flex-direction: column;
 }
 
 .card-img {
@@ -414,4 +412,12 @@ margin-right: 80px;
   padding-left: 20px;
 }
 
-
+.card2 {
+  display: flex;
+  margin: 10px;
+  padding-bottom: 150px;
+  width: 200px;
+  align-items: center;
+  flex-direction: column;
+ 
+}
