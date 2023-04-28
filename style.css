@@ -48,9 +48,6 @@ nav ul {
   
 }
 
-nav li {
-  
-}
 
 .hero {
   display: flex;
@@ -63,8 +60,7 @@ nav li {
 
 .quote {
   margin-top: 120px;
-  margin-left: 420px;
-  margin-right: 0px;
+  text-align: center;
 }
 
 .hero-h1{
@@ -379,8 +375,13 @@ nav li {
 
 
 .section8-content {  
-  margin-top: 180px;
-  margin-bottom: 190px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.section8-quote {
+  text-align: center;
+  margin-top: 120px;
 }
 
 .section8-h1{
@@ -490,11 +491,12 @@ h4{
 }
 
 .socialcards {
-  width: 80px;
-  margin: 1px;
+  width: 75px;
+  margin: 2px;
   align-items: center;
   flex-direction: column;
   display: flex;
   margin-top: 5px;
   margin-bottom: 100px;
+  
 }
