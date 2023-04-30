@@ -145,7 +145,7 @@ nav ul {
 
 .video {
   display: center;
-  margin-left: 160px;
+  margin-left: 170px;
   padding-top: 80px;
 }
 
@@ -156,10 +156,16 @@ nav ul {
   text-align: center;
   margin-top: 160px;
   margin-bottom: 60px;
+  text-shadow: 2px 2px 6px #616978;
 }
 
 
 
+
+.section3 { 
+  margin-top: 200px;
+  text-align: center;
+}
 
 .section3-h1 { 
   font-family: 'Krub', sans-serif; 
@@ -417,6 +423,7 @@ nav ul {
   font-weight: 400;
   text-align: center;
   padding-top: 110px;
+  text-shadow: 2px 2px 6px #616978;
 }
 
 .card-section {
@@ -491,12 +498,10 @@ h4{
 }
 
 .socialcards {
-  width: 75px;
-  margin: 2px;
   align-items: center;
   flex-direction: column;
   display: flex;
   margin-top: 5px;
-  margin-bottom: 100px;
-  
+  margin-bottom: 80px;
+  width: 80px;
 }
