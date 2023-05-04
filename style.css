@@ -8,6 +8,16 @@ body {
   background-color:#191919;
 }
 
+p {font-family: 'Libre Caslon Text', serif;
+  font-size: 15pt;}
+
+title {font-family: 'Libre Caslon Text', serif;}
+
+h1 {font-family: 'Yeseva One', cursive;}
+
+h2 {font-family: 'Krub', sans-serif;
+  font-size: 55pt;}
+
 .container {
   width: 1440px;
   margin: 0 auto;
@@ -68,7 +78,6 @@ nav ul {
 }
 
 .hero-h1{
-  font-family: 'Yeseva One', cursive;
   font-size: 37pt;
   margin-top: 30px;
   margin-left: 120px;
@@ -76,19 +85,13 @@ nav ul {
 }
 
 .hero-p {
-  font-family: 'Libre Caslon Text', serif;
   font-size: 12pt;
   text-align:right;
   margin-right: 160px;
 }
 
 
-
-
-
-
 .section1-h1 {
-  font-family: 'Yeseva One', cursive;
   font-size: 36pt;
   color: #E5BB69;
   margin-top: 150px;
@@ -151,9 +154,7 @@ nav ul {
   padding-top: 80px;
 }
 
-.section2-h1 { 
-  font-family: 'Krub', sans-serif; 
-  font-size: 55pt;
+.section2-h2 { 
   font-weight: 400;
   text-align: center;
   margin-top: 160px;
@@ -169,9 +170,7 @@ nav ul {
   text-align: center;
 }
 
-.section3-h1 { 
-  font-family: 'Krub', sans-serif; 
-  font-size: 55pt;
+.section3-h2 { 
   font-weight: 400;
   text-align: center;
   padding-top: 140px;
@@ -193,18 +192,17 @@ nav ul {
   height: 200px;
   width: 1200px;
   background: #90D1D8;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .section4-photo1 { 
-  margin-right: 75px;
+  margin-left: 75px;
 }
 
 .title1 { 
-  font-family: 'Libre Caslon Text', serif; 
   font-size: 20pt;
-  text-align: right;
-  margin-right: 45px;
+  text-align: left;
+  margin-left: 45px;
   margin-top: 40px;
 }
 
@@ -220,8 +218,6 @@ nav ul {
 }
 
 .section4-p {
-  font-family: 'Libre Caslon Text', serif;
-  font-size: 15pt;
   color: #FCFCFB;
   padding-left: 45px;
   padding-right: 45px;
@@ -250,7 +246,6 @@ nav ul {
 }
 
 .title2 { 
-  font-family: 'Libre Caslon Text', serif; 
   font-size: 20pt;
   text-align: left;
   margin-left: 45px;
@@ -265,8 +260,6 @@ nav ul {
 }
 
 .section5-p {
-  font-family: 'Libre Caslon Text', serif;
-  font-size: 15pt;
   color: #FCFCFB;
   padding-left: 45px;
   padding-right: 45px;
@@ -297,7 +290,6 @@ nav ul {
 }
 
 .title3 { 
-  font-family: 'Libre Caslon Text', serif; 
   font-size: 20pt;
   text-align: left;
   margin-left: 40px;
@@ -313,8 +305,6 @@ nav ul {
 }
 
 .section6-p {
-  font-family: 'Libre Caslon Text', serif;
-  font-size: 15pt;
   color: #FCFCFB;
   padding-left: 100px;
   padding-right: 60px;
@@ -337,7 +327,6 @@ nav ul {
 }
 
 .title4 { 
-  font-family: 'Libre Caslon Text', serif; 
   font-size: 20pt;
   text-align: left;
   margin-left: 40px;
@@ -356,8 +345,6 @@ nav ul {
 
 
 .section7-p {
-  font-family: 'Libre Caslon Text', serif;
-  font-size: 15pt;
   color: #191919;
   padding-left: 90px;
   padding-right: 50px;
@@ -389,7 +376,6 @@ nav ul {
 }
 
 .section8-h1{
-  font-family: 'Yeseva One', cursive;
   font-size: 37pt;
   margin-left: 180px;
   margin-right: 180px;
@@ -398,7 +384,6 @@ nav ul {
   }
   
 .section8-p {
-  font-family: 'Libre Caslon Text', serif;
   font-size: 25pt;
   color:#FCFCFB;
   text-align: center;
@@ -415,9 +400,7 @@ nav ul {
   filter: drop-shadow(0 2mm 2mm #576169);
 }
 
-.section9-h1 { 
-  font-family: 'Krub', sans-serif; 
-  font-size: 55pt;
+.section9-h2 { 
   font-weight: 400;
   text-align: center;
   padding-top: 110px;
@@ -460,16 +443,13 @@ nav ul {
 }
 
 .card2:hover {
-  filter: drop-shadow(0 2mm 3mm #E5BB69);
+  filter: drop-shadow(0 2mm 3mm #576169);}
 
 .section9-p {
-  font-family: 'Libre Caslon Text', serif;
-  font-size: 15pt;
   color: #191919;
   padding-top: 50px; 
   padding-right: 10px;
 }
-
 
 
 
@@ -507,6 +487,6 @@ h4{
 }
 
 .socialcards:hover {
-  filter: drop-shadow(0 2mm 3mm #E5BB69);
+  filter: drop-shadow(0 2mm 3mm #576169);
 }
 }
